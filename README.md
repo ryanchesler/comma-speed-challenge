@@ -1,5 +1,5 @@
 # comma-speed-challenge
-1. [Background Research](Background-Research)
+1. [Background Research](https://github.com/ryanchesler/comma-speed-challenge/blob/master/README.md#Background-Research)
    * Prior speed challenge work
    * Video classification
 2. Experiments
