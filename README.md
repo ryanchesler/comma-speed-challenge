@@ -1,5 +1,5 @@
 # comma-speed-challenge
-1. Background Research
+1. [Background Research](Background-Research)
    * Prior speed challenge work
    * Video classification
 2. Experiments
@@ -45,7 +45,7 @@
    * Comma Data Fine-tuning
 8. Paths to improvement
 
-## Background Research
+## [Background Research](#Background-Research)
 Going into this challenge I already had several techniques in mind. The approach I imagined would be most successful was a Conv-LSTM in which the convolutions would simplify the image information down into a vector and then the LSTM would iterate through the vectors in order to understand the temporal aspect of the video. 
 
 I had read this [blogpost](https://blog.coast.ai/five-video-classification-methods-implemented-in-keras-and-tensorflow-99cad29cc0b5) previously on video classification and had seen the performance comparisons and figured I could likely transfer many of the techniques and convert the task to regression relatively easily.  Another tool I pulled out was h5py in order to store the data as a large array that I could quickly access. My prior experience has shown that this is highly favorable when dealing with images. In this specific challenge I don't know that I procured as much gain as previously though. In the past I had a challenge with 1+ million jpegs and I believe the issue was seeking all of the individual files. Due to the relatively small number of frames this was not as big of an issue. 
